@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> </title>
+<style>
+	header{
+		display: flex;
+		justify-content: space-between;
+		background-color: palevioletred;
+		height: 50px;
+		align-items: center;
+		padding: 10px;
+	}
+	.gnb a{
+		margin: 0 20px;
+	}
+
+	
+	@media (max-width:767px){
+		header{
+			flex-direction: column;
+			height: auto;
+		}
+		.gnb{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+	}
+</style>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<img src="" alt="">이미지로고
+		</div>
+		<div class="gnb">
+			<a href="#none">Home</a>
+			<a href="#none">About us</a>
+			<a href="#none">Service</a>
+			<a href="#none">Contact us</a>
+			<a href="#none">Blog</a>
+		</div>
+		<div class="search">
+			<input type="search" placeholder="Search">
+		</div>
+	</header>
+
+</body>
+</html>
